@@ -1,0 +1,35 @@
+.grid-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "posts posts"
+    "footer footer";
+}
+
+.nav-container {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts-container {
+    grid-area: posts;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "one two"
+    "three four"
+    "five six";
+    grid-gap: 16px;
+}
+
+.footer-container {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
