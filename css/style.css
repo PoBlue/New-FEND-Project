@@ -1,0 +1,47 @@
+.grid-containers,
+.nav-container,
+.posts-container,
+.footer-container{
+    margin: 16px;
+}
+
+.posts-container {
+    grid-gap: 16px;
+}
+
+.subscribe,
+.search {
+    color: gray;
+}
+
+.blog-title {
+    text-decoration: underline;
+}
+
+.blog-title,
+.post .post-name {
+    font-family: Times, "Times New Roman", serif;
+}
+
+.post .post-name {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.post .tag,
+a {
+    color: rgb(10, 84, 243);
+    margin: 0;
+}
+
+.post .time {
+    font-size: small;
+    color: lightslategray;
+    margin: 0;
+}
+
+
+.post {
+    outline: 3px lightgrey solid;
+    padding: 16px;
+}
