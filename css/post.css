@@ -9,10 +9,26 @@ body {
     grid-template-rows: 1fr;
     grid-template-areas: 
     "nav nav"
-    "content side";
+    "content side"
+    "footer footer";
 }
 
 .share {
     display: flex;
     flex-direction: column;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    grid-area: content;
+}
+
+.side-info {
+    grid-area: side;
 }
