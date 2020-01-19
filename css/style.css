@@ -1,3 +1,7 @@
+@import 'layout.css';
+@import 'blog.css';
+@import 'navbar.css';
+
 .grid-containers,
 .nav-container,
 .posts-container,
@@ -14,11 +18,7 @@
     color: gray;
 }
 
-.blog-title {
-    text-decoration: underline;
-}
 
-.blog-title,
 .post .post-name {
     font-family: Times, "Times New Roman", serif;
 }
